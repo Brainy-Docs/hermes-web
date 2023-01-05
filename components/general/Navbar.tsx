@@ -31,7 +31,7 @@ export default function Navbar() {
                         <p className="relative z-10">Start Free Trial</p>
                         </div>
                     </button> */}
-                    <button className="py-3 truncate px-5 w-full font-semibold border hover:border-gray-300 rounded-xl focus:ring focus:ring-gray-50 bg-white hover:bg-gray-50 transition ease-in-out duration-200" type="button">Create Free Account</button>
+                    <button className="py-3 truncate px-5 w-full font-semibold border hover:border-gray-300 rounded-xl focus:ring focus:ring-gray-50 bg-white hover:bg-gray-50 transition ease-in-out duration-200" type="button">Obtenir l&apos;Application</button>
                     </div>
                     <div className="w-auto lg:hidden">
                     <span onClick={()=>setOpen(true)}>
