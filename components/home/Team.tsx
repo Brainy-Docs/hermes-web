@@ -1,7 +1,7 @@
 export default function Team(){
     return (
-        <section className="pt-24 pb-36 bg-white overflow-hidden">
-            <div className="container px-4 mx-auto">
+        <section className="pt-12 pb-18 bg-white overflow-hidden">
+            <div className="container px-4 mx-auto" id="team">
                 <h2 className="mb-5 text-6xl md:text-8xl xl:text-10xl text-center font-bold font-heading tracking-px-n leading-none">Le cerveau derrière Hermes</h2>
                 <p className="mb-20 text-lg text-gray-600 text-center font-medium md:max-w-xl mx-auto">Notre équipe de développeurs est composée de professionnels passionnés et expérimentés qui travaillent sans relâche pour offrir une expérience utilisateur fluide et intuitive à nos clients.</p>
                 <div className="flex flex-wrap max-w-7xl mx-auto -m-3">

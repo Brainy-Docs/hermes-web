@@ -1,6 +1,6 @@
 export default function FAQ(){
     return (
-        <section className="relative pt-24 pb-28 bg-blueGray-50 overflow-hidden">
+        <section className="relative pt-12 pb-16 bg-blueGray-50 overflow-hidden" id="faqs">
             <img className="absolute bottom-0 left-1/2 transform -translate-x-1/2" src="https://shuffle.dev/flaro-assets/images/faqs/gradient.svg" alt=""/>
             <div className="relative z-10 container px-4 mx-auto">
                 <div className="md:max-w-4xl mx-auto">

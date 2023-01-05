@@ -1,13 +1,13 @@
 
 export default function Footer(){
     return (
-        <section className="relative pt-24 pb-28 bg-white overflow-hidden">
+        <section className="relative pt-24 mt-20 pb-28 bg-white overflow-hidden">
             <img className="absolute right-0 top-0" src="https://shuffle.dev/flaro-assets/images/footers/gradient2.svg" alt=""/>
             <div className="relative z-10 container px-4 mx-auto">
                 <div className="flex flex-wrap justify-between -m-8">
                 <div className="w-full sm:w-1/2 lg:w-2/12 p-8">
                     <a className="inline-block" href="#">
-                    <img src="https://shuffle.dev/flaro-assets/logos/flaro-logo-black-xl.svg" alt=""/>
+                    <img src="/appicon.svg" alt=""/>
                     </a>
                 </div>
                 <div className="w-full sm:w-1/2 lg:w-2/12 p-8">

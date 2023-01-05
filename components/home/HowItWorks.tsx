@@ -1,7 +1,7 @@
 export default function HowItWorks(){
     return (
-        <section className="py-32 bg-white overflow-hidden">
-            <div className="container px-4 mx-auto">
+        <section className="py-18 bg-white overflow-hidden">
+            <div className="container px-4 mx-auto" id="howitworks">
                 <div className="flex flex-wrap lg:items-center -m-8">
                 <div className="w-full md:w-1/2 p-8">
                     <img className="mx-auto transform hover:-translate-y-4 transition ease-in-out duration-1000" src="/images/phone-cart.png" alt=""/>
