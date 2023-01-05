@@ -1,6 +1,6 @@
 export default function HowItWorks(){
     return (
-        <section className="py-18 bg-white overflow-hidden">
+        <section className="py-20 bg-white overflow-hidden">
             <div className="container px-4 mx-auto" id="howitworks">
                 <div className="flex flex-wrap lg:items-center -m-8">
                 <div className="w-full md:w-1/2 p-8">
