@@ -70,7 +70,7 @@ export default function Team(){
                     <img className="h-full object-cover transform hover:scale-105 transition ease-in-out duration-1000" src="https://shuffle.dev/flaro-assets/images/team/team4.png" alt=""/>
                     <div className="absolute bottom-0 left-0 w-full p-2">
                         <div className="bg-black bg-opacity-80 w-full py-4 px-5 rounded-lg">
-                        <h3 className="mb-1 text-lg text-white font-bold leading-snug">Merveille Agbeti</h3>
+                        <h3 className="mb-1 text-lg text-white font-bold leading-snug">Merveilles Agbeti-Messan</h3>
                         <p className="text-gray-400 font-medium">COO</p>
                         </div>
                     </div>
