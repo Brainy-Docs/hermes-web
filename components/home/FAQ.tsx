@@ -13,7 +13,7 @@ export default function FAQ(){
                         <div className="flex flex-wrap justify-between -m-2">
                             <div className="flex-1 p-2">
                             <h3 className="text-lg font-semibold leading-normal">Comment payer pour ma commande ?</h3>
-                            <p className="mt-4 text-gray-600 font-medium">L'application vous donne le choix entre un payment cash ou par les services locaux, Flooz, TMoney, Mobile Money.</p>
+                            <p className="mt-4 text-gray-600 font-medium">L&apos;application vous donne le choix entre un payment cash ou par les services locaux, Flooz, TMoney, Mobile Money.</p>
                             </div>
                             <div className="w-auto p-2">
                             <svg className="relative top-1" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -29,8 +29,8 @@ export default function FAQ(){
                         <div className="py-7 px-8 bg-white bg-opacity-60 border border-gray-200 hover:border-gray-300 rounded-2xl shadow-10xl">
                         <div className="flex flex-wrap justify-between -m-2">
                             <div className="flex-1 p-2">
-                            <h3 className="text-lg font-semibold leading-normal">Est-il possible de modifier ou annuler ma commande une fois qu'elle a été passée ?</h3>
-                            <p className="mt-4 text-gray-600 font-medium">Après avoir passé une commande, vous disposez d'un lapse de temps où vous pouvez modifier ou annuler la commande. Ce lapse de temps correspond au temps de confirmation de la commande par le restaurant.</p>
+                            <h3 className="text-lg font-semibold leading-normal">Est-il possible de modifier ou annuler ma commande une fois qu&apos;elle a été passée ?</h3>
+                            <p className="mt-4 text-gray-600 font-medium">Après avoir passé une commande, vous disposez d&apos;un lapse de temps où vous pouvez modifier ou annuler la commande. Ce lapse de temps correspond au temps de confirmation de la commande par le restaurant.</p>
                             </div>
                             <div className="w-auto p-2">
                             <svg className="relative top-1" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -46,8 +46,8 @@ export default function FAQ(){
                         <div className="py-7 px-8 bg-white bg-opacity-60 border border-gray-200 hover:border-gray-300 rounded-2xl shadow-10xl">
                         <div className="flex flex-wrap justify-between -m-2">
                             <div className="flex-1 p-2">
-                            <h3 className="text-lg font-semibold leading-normal">Y a-t-il des frais supplémentaires pour utiliser l'application ?</h3>
-                            <p className="mt-4 text-gray-600 font-medium">Non! L'application est totalement gratuite et concentré sur l'efficacité de commande</p>
+                            <h3 className="text-lg font-semibold leading-normal">Y a-t-il des frais supplémentaires pour utiliser l&apos;application ?</h3>
+                            <p className="mt-4 text-gray-600 font-medium">Non! L&apos;application est totalement gratuite et concentré sur l&apos;efficacité de commande</p>
                             </div>
                             <div className="w-auto p-2">
                             <svg className="relative top-1" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -64,7 +64,7 @@ export default function FAQ(){
                         <div className="flex flex-wrap justify-between -m-2">
                             <div className="flex-1 p-2">
                             <h3 className="text-lg font-semibold leading-normal">Est-il possible de récupérer ma commande au restaurant ou est-elle livrée à mon domicile ?</h3>
-                            <p className="mt-4 text-gray-600 font-medium">L'application s'utilise à l'intérieur du restaurant donc vous pouvez récupérer la command en main propre. Mais pour la livraison à domicile, n'est pas encore une option</p>
+                            <p className="mt-4 text-gray-600 font-medium">L&apos;application s&apos;utilise à l&apos;intérieur du restaurant donc vous pouvez récupérer la command en main propre. Mais pour la livraison à domicile, n&apos;est pas encore une option</p>
                             </div>
                             <div className="w-auto p-2">
                             <svg className="relative top-1" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">

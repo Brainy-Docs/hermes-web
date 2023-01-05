@@ -14,8 +14,8 @@ export default function Navbar() {
                 </div>
                 <div className="w-auto hidden lg:block">
                 <ul className="flex items-center mr-10">
-                    <li className="font-heading mr-9 text-gray-900 hover:text-gray-700 text-lg"><a href="#">Features</a></li>
-                    <li className="font-heading mr-9 text-gray-900 hover:text-gray-700 text-lg"><a href="#">Solutions</a></li>
+                    <li className="font-heading mr-9 text-gray-900 hover:text-gray-700 text-lg"><a href="#">Télécharger</a></li>
+                    <li className="font-heading mr-9 text-gray-900 hover:text-gray-700 text-lg"><a href="#">Comment ça marche</a></li>
                     <li className="font-heading mr-9 text-gray-900 hover:text-gray-700 text-lg"><a href="#">Resources</a></li>
                     <li className="font-heading text-gray-900 hover:text-gray-700 text-lg"><a href="#">Pricing</a></li>
                 </ul>
