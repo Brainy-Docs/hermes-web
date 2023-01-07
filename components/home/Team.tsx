@@ -11,7 +11,7 @@ export default function Team(){
                     <div className="absolute bottom-0 left-0 w-full p-2">
                         <div className="bg-black bg-opacity-80 w-full py-4 px-5 rounded-lg">
                         <h3 className="mb-1 text-lg text-white font-bold leading-snug">Sanvi Kokou Gwladystone</h3>
-                        <p className="text-gray-400 font-medium">CEO</p>
+                        <p className="text-gray-400 font-medium">Co-fondateur, CEO</p>
                         </div>
                     </div>
                     </div>
@@ -23,7 +23,7 @@ export default function Team(){
                         <div className="bg-black bg-opacity-80 w-full py-4 px-5 rounded-lg">
                         <div className="mb-4 pb-3 border-b border-gray-700">
                             <h3 className="mb-1 text-lg text-white font-bold leading-snug">Ibrahim Karl Bileri</h3>
-                            <p className="text-gray-400 font-medium">CTO</p>
+                            <p className="text-gray-400 font-medium">Co-fondateur, CTO</p>
                         </div>
                         <div className="flex wrap items-center -m-2.5">
                             <div className="w-auto p-2.5">
@@ -60,20 +60,20 @@ export default function Team(){
                     <div className="absolute bottom-0 left-0 w-full p-2">
                         <div className="bg-black bg-opacity-80 w-full py-4 px-5 rounded-lg">
                         <h3 className="mb-1 text-lg text-white font-bold leading-snug">Daniel Komi Logan</h3>
-                        <p className="text-gray-400 font-medium">CDO</p>
+                        <p className="text-gray-400 font-medium">Co-fondateur, CDO</p>
                         </div>
                     </div>
                     </div>
                 </div>
                 <div className="w-full md:w-1/2 lg:w-1/4 p-3">
                     <div className="relative max-w-max mx-auto h-full overflow-hidden rounded-3xl">
-                    <img className="h-full object-cover transform hover:scale-105 transition ease-in-out duration-1000" src="https://shuffle.dev/flaro-assets/images/team/team4.png" alt=""/>
-                    <div className="absolute bottom-0 left-0 w-full p-2">
-                        <div className="bg-black bg-opacity-80 w-full py-4 px-5 rounded-lg">
-                        <h3 className="mb-1 text-lg text-white font-bold leading-snug">Merveilles Agbeti-Messan</h3>
-                        <p className="text-gray-400 font-medium">COO</p>
+                        <img className="h-full object-cover transform hover:scale-105 transition ease-in-out duration-1000" src="/images/team/Merveilles.png" alt=""/>
+                        <div className="absolute bottom-0 left-0 w-full p-2">
+                            <div className="bg-black bg-opacity-80 w-full py-4 px-5 rounded-lg">
+                                <h3 className="mb-1 text-lg text-white font-bold leading-snug">Merveilles Agbeti-Messan</h3>
+                                <p className="text-gray-400 font-medium">Co-fondateur, COO</p>
+                            </div>
                         </div>
-                    </div>
                     </div>
                 </div>
                 </div>
