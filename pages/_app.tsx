@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 import Loading from '../components/general/Loading'
 
 export default function App({ Component, pageProps }: AppProps) {
-  const [user, setUser] = useState(null)
+  const [user, setUser] = useState(null)    // dafuck 
   const router = useRouter()
   const path  = router.pathname;
   
