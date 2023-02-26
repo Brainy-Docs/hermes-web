@@ -1,28 +1,12 @@
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import { useEffect, useState } from "react";
+import { RecoilRoot } from "recoil";
 import { useRouter } from "next/router";
 import Loading from "../components/general/Loading";
-import { RecoilRoot } from "recoil";
 
-import { ISSERVER } from "../helpers/functions";
-
-const getLocalData = (key: string) => {
-  if (!ISSERVER) {
-    let data = localStorage.getItem(key);
-    try {
-      if (data) {
-        return JSON.parse(data);
-      } else {
-        return null;
-      }
-    } catch (error) {
-      return null;
-    }
-  } else {
-    return null;
-  }
-};
+import { getLocalData } from "../helpers/functions";
+import { poppins } from "../helpers/constants/fonts";
 
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter();
@@ -53,8 +37,10 @@ export default function App({ Component, pageProps }: AppProps) {
   }
 
   return (
-    <RecoilRoot>
-      <Component {...pageProps} />
-    </RecoilRoot>
+    <main className={poppins.className}>
+      <RecoilRoot>
+        <Component {...pageProps} />
+      </RecoilRoot>
+    </main>
   );
 }

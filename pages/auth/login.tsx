@@ -32,10 +32,10 @@ export default function Login() {
   };
 
   return (
-    <section className="py-16 xl:pb-56 bg-white overflow-hidden">
+    <section className="py-16  bg-white overflow-hidden">
       <div className="container px-4 mx-auto">
         <div className="text-center max-w-md mx-auto">
-          <a className="mb-36 inline-block" href="#">
+          <a className="mb-24 inline-block" href="#">
             <img src="/appicon.svg" alt="" />
           </a>
           <h2 className="mb-4 text-6xl md:text-7xl text-center font-bold font-heading tracking-px-n leading-tight">
@@ -44,7 +44,8 @@ export default function Login() {
           <p className="mb-12 font-medium text-lg text-gray-600 leading-normal">
             Veuillez entrer vos pour vous connecter et gérer votre restaurant.
           </p>
-          <form>
+
+          <form className="pb-6">
             <label className="block mb-5">
               <input
                 value={email}
@@ -103,16 +104,45 @@ export default function Login() {
               )}
             </button>
             <p className="font-medium">
-              <span>Votre restaurant n&apos;est pas enrégistré?</span>
+              <span>Votre restaurant n&apos;est pas enrégistré? </span>
               <a
-                className="text-orange-600 hover:text-orange-700"
+                className="text-orange-600 hover:text-orange-700 font-medium "
                 href="mailto:hermes@gmail.com"
               >
-                {" "}
                 Contactez-nous
               </a>
             </p>
           </form>
+
+          <div className="w-full flex flex-row items-center my-5 ">
+            <span className="w-full h-[1px] bg-gray-300 "></span>
+            <span className="mx-4 text-gray-600">ou</span>
+            <span className="w-full h-[1px] bg-gray-300 "></span>
+          </div>
+
+          <div className="flex flex-col items-center text-gray-600">
+            <button className="flex items-center border-2 rounded-md px-4 py-3 w-full justify-center my-4 hover:border-red-400 transition-all font-semibold ">
+              <img
+                height={30}
+                width={30}
+                src={"/icons/svg/google-icon.svg"}
+                alt="google"
+                className="mr-2"
+              />
+              <span>Se connecter avec Google</span>
+            </button>
+
+            <button className="flex items-center border-2 rounded-md px-4 py-3 w-full justify-center hover:border-sky-400 transition-all font-semibold ">
+              <img
+                height={30}
+                width={30}
+                src={"/icons/svg/facebook.svg"}
+                alt="google"
+                className="mr-2"
+              />
+              <span>Se connecter avec Facebook</span>
+            </button>
+          </div>
         </div>
       </div>
     </section>
