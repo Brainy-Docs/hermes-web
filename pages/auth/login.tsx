@@ -1,9 +1,13 @@
 import { useState } from "react";
+import { useRecoilState } from "recoil";
+import { restoState } from "../../recoil/atoms";
 
 export default function Login() {
   const [loading, setLoading] = useState(false);
-  const [email, setEmail] = useState("gwladystone1erdunom@gmail.com");
-  const [password, setPassword] = useState("admin");
+  const [email, setEmail] = useState("kiricafe");
+  const [password, setPassword] = useState("password");
+
+  const [resto, setResto] = useRecoilState(restoState);
 
   const onSubmit = async () => {
     setLoading(true);
@@ -19,6 +23,7 @@ export default function Login() {
     });
     const data = await res.json();
     if (data.success) {
+      setResto(data?.data?.data);
       window.location.href = "/manage";
     } else {
       alert(data.message);
