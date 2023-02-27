@@ -35,3 +35,12 @@ export const restoState = atom({
   },
   effects: [localPersist],
 });
+
+export const restoTokenState = atom({
+  key: "restoTokenState",
+  default: {
+    jwToken: "",
+    refreshToken: "",
+  },
+  effects: [localPersist],
+});
