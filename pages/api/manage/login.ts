@@ -19,6 +19,7 @@ export default function handler(
     axios
       .post("/restaurant/login", { password, username: email })
       .then((response) => {
+        console.log(response);
         if (response?.status < 400 || !response?.data?.error) {
           res.status(200).json({
             message: response?.data?.message ?? "Connexion reussie",
@@ -26,16 +27,10 @@ export default function handler(
             data: response?.data,
           });
         }
-        // else {
-        //    console.log(response?.data?.message);
-        //   res.status(200).json({
-        //     message: response?.data?.message ?? "Indentifiants Invalides",
-        //     success: false,
-        //   });
-        // }
       })
       .catch((err) => {
-        console.log(err.response?.data?.message);
+        // console.log(err);
+        // console.log(err.response?.data?.message);
         res.status(200).json({
           message: err.response?.data?.message ?? "Indentifiants Invalides",
           success: false,
