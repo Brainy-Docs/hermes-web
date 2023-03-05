@@ -2,6 +2,7 @@ import { useRecoilValue, useResetRecoilState } from "recoil";
 import { restoState, restoTokenState } from "../../recoil/atoms";
 import Head from "next/head";
 import Title from "../../components/general/Title";
+import DashboardLayout from "../../components/DashboardLayout";
 
 export default function Index() {
   const resto = useRecoilValue(restoState);
@@ -28,20 +29,13 @@ export default function Index() {
   };
 
   return (
-    <section className="flex flex-col items-center justify-center h-screen overflow-hidden ">
+    <section className="">
       <Title title="Dashboard" />
-      <img src="/appicon.svg" alt="logo" />
-      <p className="mt-10 font-semibold ">Dashboard en developpement</p>
-
-      <p className="mt-10 font-normal">
-        Connecté en tant que <span className="italic">{resto.username}</span>.{" "}
-        <span
-          onClick={logout}
-          className="font-bold cursor-pointer hover:underline hover:text-blue-500 "
-        >
+      <DashboardLayout>
+        <button className="hover:underline" onClick={logout}>
           Deconnexion
-        </span>
-      </p>
+        </button>
+      </DashboardLayout>
     </section>
   );
 }
