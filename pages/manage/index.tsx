@@ -13,6 +13,8 @@ export default function Index() {
   const resetRestoToken = useResetRecoilState(restoTokenState);
 
   let logout = async () => {
+    let retries = 0;
+
     const res = await fetch("/api/manage/logout", {
       method: "GET",
       headers: {
@@ -27,12 +29,22 @@ export default function Index() {
     } else {
       alert(data.message);
       if (data?.message?.includes("jwt expired")) {
-        let _res = await refreshToken(restoToken?.refreshToken);
-        console.log({ _res });
-        if (_res?.data) {
-          setRestoToken({ ...restoToken, jwToken: _res?.data });
+        if (retries < 5) {
+          alert("1");
+
+          let _res = await refreshToken(restoToken?.refreshToken);
+          alert("2");
+          console.log({ _res });
+          if (_res?.data) {
+            setRestoToken({ ...restoToken, ..._res?.data });
+          }
+          retries += 1;
+          console.log(`Retrying ${retries}times...`);
+
+          // await logout();
+        } else {
+          alert("Retries exceed 5 times !! Retry later! ");
         }
-        // await logout();
       }
     }
   };
