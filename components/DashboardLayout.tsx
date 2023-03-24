@@ -1,7 +1,11 @@
 import { useState } from "react";
-import { GiMeal } from "react-icons/gi";
-import { MdHome, MdMenuBook, MdPayments, MdRestaurant } from "react-icons/md";
+
+import { MdOutlineFastfood, MdOutlineMenuBook } from "react-icons/md";
 import { RiMenu5Fill } from "react-icons/ri";
+import { TbReportAnalytics, TbReportMoney } from "react-icons/tb";
+import {} from "react-icons/bs";
+import { BiUserCircle } from "react-icons/bi";
+
 import { useRecoilState, useRecoilValue } from "recoil";
 import { restoState } from "../recoil/atoms";
 
@@ -42,13 +46,13 @@ export default function DashboardLayout({ children }: any) {
                   minimizedSB ? "justify-center" : "justify-start"
                 } `}
               >
-                <MdHome size={35} />
+                <TbReportAnalytics size={35} />
                 <span
                   className={`ml-2 capitalize font-semibold  ${
                     minimizedSB ? "hidden" : ""
                   } `}
                 >
-                  Accueil
+                  Overview
                 </span>
               </div>
             </div>
@@ -61,7 +65,7 @@ export default function DashboardLayout({ children }: any) {
                   minimizedSB ? "justify-center" : "justify-start"
                 } `}
               >
-                <MdMenuBook size={35} />
+                <MdOutlineMenuBook size={35} />
                 <span
                   className={`ml-2 capitalize font-semibold  ${
                     minimizedSB ? "hidden" : ""
@@ -80,7 +84,7 @@ export default function DashboardLayout({ children }: any) {
                   minimizedSB ? "justify-center" : "justify-start"
                 } `}
               >
-                <GiMeal size={35} />
+                <MdOutlineFastfood size={35} />
                 <span
                   className={`ml-2 capitalize font-semibold  ${
                     minimizedSB ? "hidden" : ""
@@ -99,13 +103,32 @@ export default function DashboardLayout({ children }: any) {
                   minimizedSB ? "justify-center" : "justify-start"
                 } `}
               >
-                <MdPayments size={35} />
+                <TbReportMoney size={35} />
                 <span
                   className={`ml-2 capitalize font-semibold  ${
                     minimizedSB ? "hidden" : ""
                   } `}
                 >
                   Payements
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div className="opacity-80 hover:opacity-100 cursor-pointer border-transparent border-4 hover:border-l-white mb-5">
+            <div className="w-[80%] flex-auto overflow-hidden m-auto flex-col text-white py-2 ">
+              <div
+                className={`flex items-center ${
+                  minimizedSB ? "justify-center" : "justify-start"
+                } `}
+              >
+                <BiUserCircle size={35} color={"white"} />
+                <span
+                  className={`ml-2 capitalize font-semibold  ${
+                    minimizedSB ? "hidden" : ""
+                  } `}
+                >
+                  Profil
                 </span>
               </div>
             </div>
