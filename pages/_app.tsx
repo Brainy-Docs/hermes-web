@@ -27,7 +27,7 @@ export default function App({ Component, pageProps }: AppProps) {
         router.push("/manage");
       }
     }
-  }, [resto]);
+  }, [path, resto, router]);
 
   if (
     (path.startsWith("/manage") && !!!resto) ||

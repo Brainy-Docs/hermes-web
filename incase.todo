@@ -1,0 +1,4 @@
+Warning: Invalid DOM property `stroke-width`. Did you mean `strokeWidth`?
+Warning: Invalid DOM property `stroke-linecap`. Did you mean `strokeLinecap`?
+Warning: Invalid DOM property `stroke-linejoin`. Did you mean `strokeLinejoin`?
+

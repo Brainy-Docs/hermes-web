@@ -14,7 +14,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Landing() {
   return (
-    <Layout>
+    <Layout >
       <Navbar/>
       <Download/>
       <HowItWorks/>
