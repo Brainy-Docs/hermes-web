@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 import Loading from "../components/general/Loading";
 
 import { getLocalData } from "../helpers/functions";
-import { poppins } from "../helpers/constants/fonts";
+import { poppins, inter, montserrat, lexend } from "../helpers/constants/fonts";
 
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter();
@@ -37,7 +37,7 @@ export default function App({ Component, pageProps }: AppProps) {
   }
 
   return (
-    <main className={poppins.className}>
+    <main className={lexend.className}>
       <RecoilRoot>
         <Component {...pageProps} />
       </RecoilRoot>
